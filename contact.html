@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deel je recepten</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="h1-contact"><strong>Deel je recept</strong></h1>
+        <hr>
+        <nav>
+            <ul class="top-menu">
+                <li class="nav-menu"><a href="index.html">Home</a></li>
+                <li class="nav-menu"><a href="about.html">Over Ingrid</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Door middel van onderstaand formulier kan je je recepten insturen zodat ze op de website geplaatst kunnen worden
+        </p>
+        <form name="recipes" method="POST" data-netlify="true">
+            <div class="form-recipe">
+                <label>Naam: </label><br>
+                <input type="text" name="name"/><br>
+                <label>E-mailadres: </label><br>
+                <input type="email" name="email"/><br>
+                <label>Telefoonnummer: </label><br>
+                <input type="tel" name="tel"/><br>
+                <label>Leeftijd: </label><br>
+                <input type="number" name="age"/><br>
+                <label>Geboortedatum: </label><br>
+                <input type="date" name="date"/><br>
+                <div class="gender">
+                    <label>
+                        man <input type="radio" name="gender" id="male" value="man"/>
+                    </label>
+                    <label>
+                        vrouw <input type="radio" name="gender" id="female" value="vrouw"/>
+                    </label><br>
+                </div>
+                <div class="favorite">
+                    <label>Favoriete keuken:</label><br>
+                    <input type="checkbox" name="Frans"/> Frans<br>
+                    <input type="checkbox" name="Italiaans"/> Italiaans<br>
+                    <input type="checkbox" name="Spaans"/> Spaans<br>
+                    <input type="checkbox" name="Arabisch"/> Arabisch<br>
+                </div>
+                <div class="color">
+                    <label>Favoriete kleur van je schort</label><br>
+                    <input type="color" name="color"/>
+                </div>
+                <p>
+                    <label>Biografie</label><br>
+                    <textarea row="20" cols="20" name="massage">
+                    </textarea>
+                </p>
+                <div class="upload">
+                    <label>Upload je recept</label><br>
+                    <input type="file" name="recipe"/><br>
+                </div>
+                <div class="url">
+                    <label>Je eigen recepten website url</label><br>
+                    <input type="url" name="website"/><br>
+                </div>
+                    <div class="reset">
+                    <input type="reset" value="formulier leeg maken"/><br>
+                </div>
+                <input type="submit" value="Verstuur" /><br>
+        </div>
+        </form>
+    </main>
+    <footer class="footer-about">
+        <nav>
+            <a href="index.html">Terug naar de homepage</a>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+body { 
+    color: #027020;
+    background-color: #f6fdf1;
+    font-family: 'Gill Sans MT', Calibri, sans-serif;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    line-height: 3em;
+}
+blockquote {
+	margin: 40px 5px;
+    background-color:#fff ;
+	color: #999;
+	border-left: 2px solid #999;
+	padding-left: 1em;
+ }
+.rounded {
+	background-color: #666;
+	color: #fff;
+	font-weight: normal;
+	padding: 10px;
+    border-radius: 5px;
+}
+.list {
+    font-size: 18px;
+    border: 2px solid #999;
+    padding-left: 20px;
+}
+.benodigdheden {
+    font-size: 50px;
+    margin: 0 auto;
+    width: 350px;
+    line-height: 1,5em;
+}
+header {
+    border: 7px double #12f54f;
+    margin: 15px;
+    padding: 0px 10px 5px 20px;
+    }
+main {
+    border: 7px double #0fbe3e;
+    margin: 15px;
+    padding: 0px 10px 5px 20px;
+}
+footer {
+    border: 7px double #11752b;
+    margin: 15px;
+    padding: 0px 5px 15px 20px;
+}
+.footer-about {
+    border: 7px double #11752b;
+    margin: 15px;
+    padding: 10px;
+}
+.h1-about {
+    margin: 0 auto;
+    width: 450px;
+    padding: 10px;
+}
+.nav-menu {
+    display: inline;
+    padding:10px;
+    font-size: 42px;
+}
+.top-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+form {
+    padding: 10px
+}
+.gender {
+    padding: 15px 0px 5px 0px; 
+}
+.favorite {
+    padding: 10px 0px;
+}
+.color {
+    padding: 10px 0px;
+}
+.upload {
+    padding: 0px 0px 20px 0px;
+}
+.url {
+    padding: 0px 0px 15px 0px;
+}
+.reset {
+    padding: 15px 0px 20px 0px;
+}
+.overview {
+    height: 800px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    Justify-content: space-evenly;
+    align-items: center;
+}
+.blogpost1 { 
+    width: 300px; 
+    border: 1px solid black;
+    order: 3; 
+    align-self: flex-start;
+    flex-grow: 2; 
+}
+.blogpost2 { 
+    width: 300px; 
+    border: 1px solid black;
+    order: 2;    
+}
+.blogpost3 { 
+    width: 300px; 
+    border: 1px solid black; 
+    order: 1;
+}
+.blogpost4 { 
+    width: 300px; 
+    border: 1px solid black;
+    order: 0;
+}
+.blogpost5 { 
+    width: 300px; 
+    border: 1px solid black; 
+    order: 1;
+}
+.overview h1 {
+    font-size: 25px;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: rgba(251, 255, 0, 0.144);
+        color:navy;
+    }
+    p { 
+        font-size: 18px;
+        line-height: 1em;
+    }
+    .benodigdheden {
+        font-size: 20px;
+        line-height: 1,5em;
+    }
+    .nav-menu {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 55px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 33px;
+    }
+    .h1-about  {
+        margin: 0 auto;
+        width: 350px;
+    }
+    
+}
